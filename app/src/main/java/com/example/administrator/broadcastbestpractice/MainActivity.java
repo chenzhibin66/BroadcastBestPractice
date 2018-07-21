@@ -17,8 +17,7 @@ public class MainActivity extends BaseActivity {
             @Override
             public void onClick(View view) {
                 Intent intent=new Intent("com.example.broadcastbestpractice.FORCE_OFFLINE");
-
-                sendBroadcast(intent);
+                 sendBroadcast(intent);
             }
         });
     }
